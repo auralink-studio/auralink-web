@@ -31,7 +31,7 @@ LABEL = {"vi": "VI", "en": "EN", "zh": "中"}
 PREFIX = {"vi": "", "en": "en/", "zh": "zh/"}
 X_DEFAULT = "en"
 SHARED = r"(?:assets/|favicon\.|apple-touch-icon|icon-\d+\.png|site\.webmanifest)"
-REPO = "chenboguang7976/auralink-web"
+REPO = "auralink-studio/auralink-web"
 FONTS = "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700"
 FONT_ZH = "&family=Noto+Sans+SC:wght@400;500;700"
 OG_W, OG_H = 1200, 630

@@ -5,7 +5,7 @@
 Please **do not open a public issue** for security problems.
 
 Report it privately through GitHub:
-[Security → Report a vulnerability](https://github.com/chenboguang7976/auralink-web/security/advisories/new).
+[Security → Report a vulnerability](https://github.com/auralink-studio/auralink-web/security/advisories/new).
 
 Include what you found, how to reproduce it, and the version or commit affected.
 You should get a reply within 7 days. Once a fix is released, the advisory is
@@ -18,5 +18,5 @@ Only the latest release (and `main`) receives security fixes.
 ## Downloads
 
 Official builds are published only on this repository's
-[Releases](https://github.com/chenboguang7976/auralink-web/releases) page and on
+[Releases](https://github.com/auralink-studio/auralink-web/releases) page and on
 [auralink.io.vn](https://auralink.io.vn). Do not trust binaries from anywhere else.
