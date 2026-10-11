@@ -14,6 +14,7 @@ Static marketing site for **AuraLink Studio**, a suite of desktop audio, metaphy
 | **AI Reaper Commander** — natural-language control of REAPER | Windows, macOS | `products/ai-reaper-commander.html` | vi · en · zh |
 | **Chroma Studio** — Chroma Sense (live key detection) + Chroma Tune (pitch correction locked to the key), VST3 | Windows, macOS | `products/chroma-studio.html` | vi · en · zh |
 | **Cadence** — real-time MIDI chord & scale studio | Windows, macOS | `products/cadence.html` | vi · en · zh |
+| **Zhiyin 知音 · Tri Âm** — perceptual EQ (Recover / Tame), Studio · Live · Master editions, VST3 | Windows | `products/zhiyin.html` | vi · en · zh |
 | **Huyền Cơ Tứ Trụ** — BaZi charting, Vietnamese UI | Windows | `products/huyenco-tutru.html` | vi · en |
 | **玄机八字 XuanJi BaZi** — BaZi charting, Chinese UI | Windows | `products/xuanji-bazi.html` | en · zh |
 | **Lửng Phù · BadgerTally** — protected video: one unlock ticket per viewing machine, tracing watermark | Windows, macOS | `products/badgertally.html` | vi · en · zh |
@@ -93,6 +94,7 @@ Download ids (`data-dl`) and their files:
 | `arc-win` / `arc-mac` | AI Reaper Commander | Windows x64 / macOS Universal |
 | `cs-win` / `cs-mac` | Chroma Studio | Windows x64 / macOS (unsigned VST3: Apple Silicon needs the DAW under Rosetta) |
 | `cadence-win` / `cd-mac` | Cadence | Windows x64 / macOS Intel |
+| `zy-win` | Zhiyin (Studio + Live + Master VST3) | Windows x64 |
 | `hc-win` | Huyền Cơ Tứ Trụ | Windows x64 |
 | `xj-win` | 玄机八字 XuanJi BaZi | Windows x64 |
 | `bt-win` / `bt-mac` | Lửng Phù · BadgerTally | Windows x64 / macOS 13+ Intel |

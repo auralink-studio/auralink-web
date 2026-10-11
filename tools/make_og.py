@@ -23,6 +23,7 @@ CARDS = {
     "ai-reaper":      ("shot-ai-reaper.webp",      "ai-reaper-logo.webp",     "#6cb6ff", "#4a78ff"),
     "chroma":         ("shot-chroma-tune.webp",    "chroma-studio-logo.webp", "#f4b556", "#cf6f2e"),
     "cadence":        ("shot-cadence.webp",        "cadence-studio-logo.webp","#72e3a6", "#2fae70"),
+    "zhiyin":         ("shot-zhiyin-studio.webp",  "zhiyin-logo.webp",        "#f08a74", "#b5302a"),
     "huyenco":        ("shot-huyenco.webp",        "huyenco-tutru-logo.webp", "#f0d27a", "#c9963a"),
     "xuanji":         ("shot-xuanji.webp",         "xuanji-bazi-logo.webp",   "#f0d27a", "#c9963a"),
 }
@@ -103,7 +104,7 @@ def home():
     place(c, right, W - right.width - 20, 150)
     place(c, mid, (W - mid.width) // 2, 92)
     logos = ["auralink-logo.webp", "ai-reaper-logo.webp", "chroma-studio-logo.webp", "cadence-studio-logo.webp",
-             "huyenco-tutru-logo.webp", "badgertally-logo.webp", "tigertally-logo.webp"]
+             "zhiyin-logo.webp", "huyenco-tutru-logo.webp", "badgertally-logo.webp", "tigertally-logo.webp"]
     size, gap = 64, 18
     x = (W - (len(logos) * size + (len(logos) - 1) * gap)) // 2
     for f in logos:
