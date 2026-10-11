@@ -44,7 +44,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../../assets/css/style.css?v=369febfb2a">
+<link rel="stylesheet" href="../../assets/css/style.css?v=b95244a57b">
 <link rel="icon" href="../../assets/img/zhiyin-logo.webp">
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png">
 <link rel="manifest" href="../../site.webmanifest">
@@ -101,8 +101,10 @@
       </div>
       <p class="note" data-i18n="zy.winnote">目前支持 Windows 10/11（64 位），可在任何支持 VST3 的 DAW 中使用。下载包内含录音室版、现场版和母带版三个版本。</p>
     </div>
-    <div class="phero__visual phero__visual--shot">
-      <img src="../../assets/img/shot-zhiyin-studio.webp" data-i18n-attr="alt:zy.shotalt" alt="知音录音室版界面：频谱、恢复 / 驯服均衡曲线与旋钮" width="1200" height="750">
+    <div class="hero__show hero__show--trio">
+      <img class="hero__win hero__win--back hero__win--l" src="../../assets/img/shot-zhiyin-live.webp" alt="" width="1200" height="750">
+      <img class="hero__win hero__win--back hero__win--r" src="../../assets/img/shot-zhiyin-master.webp" alt="" width="1490" height="750">
+      <img class="hero__win hero__win--main" src="../../assets/img/shot-zhiyin-studio.webp" data-i18n-attr="alt:zy.shotalt" alt="知音录音室版界面：频谱、恢复 / 驯服均衡曲线与旋钮" width="1200" height="750" fetchpriority="high">
     </div>
   </div>
 </header>
@@ -135,9 +137,8 @@
       <p class="lead" data-i18n="zy.e.lead">按手上的工作选择：混音、录音与现场，或母带。三个版本都在同一个下载包里。</p>
     </div>
     <div class="editions">
-      <figure class="edition edition--studio reveal">
-        <img src="../../assets/img/shot-zhiyin-studio.webp" data-i18n-attr="alt:zy.e1.alt" alt="知音录音室版，绿色主题" width="1200" height="750" loading="lazy">
-        <figcaption>
+      <div class="edition edition--studio reveal">
+        <div>
           <h3 data-i18n="zy.e1t">录音室版 Studio</h3>
           <p data-i18n="zy.e1d">用于混音、单轨与总线，低频分辨率高。主题色：竹林绿。</p>
           <ul>
@@ -145,11 +146,10 @@
             <li><span data-i18n="zy.e.l2">处理精度</span><b data-i18n="zy.e1.v2">32 位</b></li>
             <li><span data-i18n="zy.e.l3">最大修正</span><b data-i18n="zy.e1.v3">±12 dB</b></li>
           </ul>
-        </figcaption>
-      </figure>
-      <figure class="edition edition--live reveal">
-        <img src="../../assets/img/shot-zhiyin-live.webp" data-i18n-attr="alt:zy.e2.alt" alt="知音现场版，粉色主题" width="1200" height="750" loading="lazy">
-        <figcaption>
+        </div>
+      </div>
+      <div class="edition edition--live reveal">
+        <div>
           <h3 data-i18n="zy.e2t">现场版 Live</h3>
           <p data-i18n="zy.e2d">用于录音监听与现场演出，低延迟，适合实时使用。主题色：荷花粉。</p>
           <ul>
@@ -157,11 +157,10 @@
             <li><span data-i18n="zy.e.l2">处理精度</span><b data-i18n="zy.e2.v2">32 位</b></li>
             <li><span data-i18n="zy.e.l3">最大修正</span><b data-i18n="zy.e2.v3">±9 dB</b></li>
           </ul>
-        </figcaption>
-      </figure>
-      <figure class="edition edition--master reveal">
-        <img src="../../assets/img/shot-zhiyin-master.webp" data-i18n-attr="alt:zy.e3.alt" alt="知音母带版，橙色主题" width="1490" height="750" loading="lazy">
-        <figcaption>
+        </div>
+      </div>
+      <div class="edition edition--master reveal">
+        <div>
           <h3 data-i18n="zy.e3t">母带版 Master</h3>
           <p data-i18n="zy.e3d">用于母带与总线精修，增加响应、范围与立体声 / 中侧模式。主题色：枫叶橙。</p>
           <ul>
@@ -169,8 +168,8 @@
             <li><span data-i18n="zy.e.l2">处理精度</span><b data-i18n="zy.e3.v2">64 位双模型</b></li>
             <li><span data-i18n="zy.e.l3">最大修正</span><b data-i18n="zy.e3.v3">3–18 dB（范围）</b></li>
           </ul>
-        </figcaption>
-      </figure>
+        </div>
+      </div>
     </div>
   </div>
 </section>

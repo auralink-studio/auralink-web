@@ -44,7 +44,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../assets/css/style.css?v=369febfb2a">
+<link rel="stylesheet" href="../assets/css/style.css?v=b95244a57b">
 <link rel="icon" href="../assets/img/zhiyin-logo.webp">
 <link rel="apple-touch-icon" href="../apple-touch-icon.png">
 <link rel="manifest" href="../site.webmanifest">
@@ -101,8 +101,10 @@
       </div>
       <p class="note" data-i18n="zy.winnote">Hiện có cho Windows 10/11 (64 bit), chạy trong mọi DAW hỗ trợ VST3. Gói tải về có đủ ba bản Studio, Live và Master.</p>
     </div>
-    <div class="phero__visual phero__visual--shot">
-      <img src="../assets/img/shot-zhiyin-studio.webp" data-i18n-attr="alt:zy.shotalt" alt="Giao diện Tri Âm bản Studio: phổ tín hiệu, đường EQ Phục hồi / Chế ngự và các núm điều khiển" width="1200" height="750">
+    <div class="hero__show hero__show--trio">
+      <img class="hero__win hero__win--back hero__win--l" src="../assets/img/shot-zhiyin-live.webp" alt="" width="1200" height="750">
+      <img class="hero__win hero__win--back hero__win--r" src="../assets/img/shot-zhiyin-master.webp" alt="" width="1490" height="750">
+      <img class="hero__win hero__win--main" src="../assets/img/shot-zhiyin-studio.webp" data-i18n-attr="alt:zy.shotalt" alt="Giao diện Tri Âm bản Studio: phổ tín hiệu, đường EQ Phục hồi / Chế ngự và các núm điều khiển" width="1200" height="750" fetchpriority="high">
     </div>
   </div>
 </header>
@@ -135,9 +137,8 @@
       <p class="lead" data-i18n="zy.e.lead">Chọn theo việc bạn đang làm: mix, thu âm và biểu diễn, hay master. Cả ba nằm trong cùng một gói tải.</p>
     </div>
     <div class="editions">
-      <figure class="edition edition--studio reveal">
-        <img src="../assets/img/shot-zhiyin-studio.webp" data-i18n-attr="alt:zy.e1.alt" alt="Tri Âm bản Studio, giao diện xanh lá" width="1200" height="750" loading="lazy">
-        <figcaption>
+      <div class="edition edition--studio reveal">
+        <div>
           <h3 data-i18n="zy.e1t">Studio · Phòng thu</h3>
           <p data-i18n="zy.e1d">Cho mix, từng track và bus. Độ phân giải vùng trầm cao. Sắc xanh Trúc Lâm.</p>
           <ul>
@@ -145,11 +146,10 @@
             <li><span data-i18n="zy.e.l2">Xử lý</span><b data-i18n="zy.e1.v2">32 bit</b></li>
             <li><span data-i18n="zy.e.l3">Mức tối đa</span><b data-i18n="zy.e1.v3">±12 dB</b></li>
           </ul>
-        </figcaption>
-      </figure>
-      <figure class="edition edition--live reveal">
-        <img src="../assets/img/shot-zhiyin-live.webp" data-i18n-attr="alt:zy.e2.alt" alt="Tri Âm bản Live, giao diện hồng sen" width="1200" height="750" loading="lazy">
-        <figcaption>
+        </div>
+      </div>
+      <div class="edition edition--live reveal">
+        <div>
           <h3 data-i18n="zy.e2t">Live · Trình diễn</h3>
           <p data-i18n="zy.e2d">Cho thu âm có nghe trả và biểu diễn trực tiếp: độ trễ thấp để dùng thời gian thực. Sắc hồng Hà Hoa.</p>
           <ul>
@@ -157,11 +157,10 @@
             <li><span data-i18n="zy.e.l2">Xử lý</span><b data-i18n="zy.e2.v2">32 bit</b></li>
             <li><span data-i18n="zy.e.l3">Mức tối đa</span><b data-i18n="zy.e2.v3">±9 dB</b></li>
           </ul>
-        </figcaption>
-      </figure>
-      <figure class="edition edition--master reveal">
-        <img src="../assets/img/shot-zhiyin-master.webp" data-i18n-attr="alt:zy.e3.alt" alt="Tri Âm bản Master, giao diện cam lá phong" width="1490" height="750" loading="lazy">
-        <figcaption>
+        </div>
+      </div>
+      <div class="edition edition--master reveal">
+        <div>
           <h3 data-i18n="zy.e3t">Master · Hoàn thiện</h3>
           <p data-i18n="zy.e3d">Cho master và hoàn thiện bus: thêm Phản ứng, Biên độ và chế độ Âm nổi / Giữa–Bên. Sắc cam Phong Diệp.</p>
           <ul>
@@ -169,8 +168,8 @@
             <li><span data-i18n="zy.e.l2">Xử lý</span><b data-i18n="zy.e3.v2">64 bit, mô hình kép</b></li>
             <li><span data-i18n="zy.e.l3">Mức tối đa</span><b data-i18n="zy.e3.v3">3–18 dB (Biên độ)</b></li>
           </ul>
-        </figcaption>
-      </figure>
+        </div>
+      </div>
     </div>
   </div>
 </section>
