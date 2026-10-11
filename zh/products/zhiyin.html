@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Content Security Policy, as a meta tag because GitHub Pages cannot set
+     headers. The site has NO inline <script> and NO on* handlers, so
+     script-src can be a bare 'self' with no unsafe-inline escape hatch —
+     which is the one directive that actually stops an injected script from
+     running. style-src still needs unsafe-inline for the 56 style=""
+     attributes in the markup; injected CSS cannot execute, so that is a far
+     cheaper concession. connect-src is 'none': the site makes no fetch/XHR
+     at all (language comes from the browser and its time zone, locally).
+     Clickjacking and transport headers come from Cloudflare, not from here:
+     frame-ancestors is ignored in a meta tag and GitHub Pages cannot send
+     headers, so a Cloudflare Response Header Transform Rule adds
+     X-Frame-Options DENY, CSP frame-ancestors 'none' and Permissions-Policy,
+     and SSL/TLS settings add HSTS (6 months), nosniff, Always Use HTTPS and
+     TLS >= 1.2 (set up 2026-09-25). -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests">
+<!-- Send the full URL only to ourselves; cross-origin gets the origin, and
+     an http:// destination gets nothing at all. -->
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title data-i18n="zy.title">知音 Zhiyin —— 像人耳一样聆听的均衡器</title>
+<meta name="description" data-i18n-attr="content:zy.desc" content="知音（Zhiyin）是一款 Windows 上的感知均衡 VST3 插件：随音乐持续驯服刺耳、轰鸣、共鸣的频率，并恢复被掩蔽的细节。提供录音室版、现场版与母带版。">
+<meta property="og:title" content="知音 Zhiyin —— 像人耳一样聆听的均衡器">
+<meta property="og:description" content="知音（Zhiyin）是一款 Windows 上的感知均衡 VST3 插件：随音乐持续驯服刺耳、轰鸣、共鸣的频率，并恢复被掩蔽的细节。提供录音室版、现场版与母带版。">
+<meta property="og:type" content="website">
+<link rel="canonical" href="https://auralink.io.vn/zh/products/zhiyin.html">
+<link rel="alternate" hreflang="vi" href="https://auralink.io.vn/products/zhiyin.html">
+<link rel="alternate" hreflang="en" href="https://auralink.io.vn/en/products/zhiyin.html">
+<link rel="alternate" hreflang="zh" href="https://auralink.io.vn/zh/products/zhiyin.html">
+<link rel="alternate" hreflang="x-default" href="https://auralink.io.vn/en/products/zhiyin.html">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:locale:alternate" content="vi_VN">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:url" content="https://auralink.io.vn/zh/products/zhiyin.html">
+<meta property="og:image" content="https://auralink.io.vn/assets/img/og/zhiyin.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:site_name" content="AuraLink Studio">
+<meta name="theme-color" content="#08080a">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/css/style.css?v=b95244a57b">
+<link rel="icon" href="../../assets/img/zhiyin-logo.webp">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<link rel="manifest" href="../../site.webmanifest">
+<script src="../../assets/js/lang.js?v=f55cb46adc"></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Zhiyin","description":"知音（Zhiyin）是一款 Windows 上的感知均衡 VST3 插件：随音乐持续驯服刺耳、轰鸣、共鸣的频率，并恢复被掩蔽的细节。提供录音室版、现场版与母带版。","url":"https://auralink.io.vn/zh/products/zhiyin.html","image":"https://auralink.io.vn/assets/img/og/zhiyin.jpg","inLanguage":"zh-CN","applicationCategory":"MultimediaApplication","operatingSystem":"Windows","softwareVersion":"1.0.0","downloadUrl":["https://github.com/auralink-studio/auralink-web/releases/download/zhyn-v1.0.0/Zhiyin_Setup_v1.0.0_Windows.zip"],"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"AuraLink Studio","url":"https://auralink.io.vn/","logo":"https://auralink.io.vn/icon-512.png","email":"contact@auralink.io.vn"}}</script>
+</head>
+<body class="theme-zhiyin">
+<a class="skip" href="#main" data-i18n="a11y.skip">跳到主要内容</a>
+
+<nav class="nav">
+  <div class="wrap nav__inner">
+    <a href="../index.html" class="brand">
+      <svg class="brand__mark" viewBox="0 0 32 32" fill="none">
+        <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#35e0d0"/><stop offset="1" stop-color="#7b5cff"/></linearGradient></defs>
+        <path d="M4 16h4l3-9 5 18 4-13 3 6h5" stroke="url(#bg)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <span>AuraLink<small>Studio</small></span>
+    </a>
+    <div class="nav__links" id="nav-links">
+      <a href="../index.html#audio" data-i18n="nav.audio">音频</a>
+      <a href="../index.html#metaphysics" data-i18n="nav.meta">玄学</a>
+      <a href="../index.html#security" data-i18n="nav.sec">安全</a>
+      <a href="auralink.html">AuraLink Router</a>
+      <a href="../index.html#downloads" data-i18n="nav.downloads">下载</a>
+    </div>
+    <div class="nav__cta">
+      <div class="lang" role="group" aria-label="Language">
+        <a href="../../products/zhiyin.html" hreflang="vi" lang="vi" data-lang="vi">VI</a>
+        <a href="../../en/products/zhiyin.html" hreflang="en" lang="en" data-lang="en">EN</a>
+        <a href="../../zh/products/zhiyin.html" hreflang="zh" lang="zh-CN" data-lang="zh" class="active" aria-current="page">中</a>
+      </div>
+      <a href="../index.html#downloads" class="btn btn--primary btn--sm" data-i18n="nav.downloads">下载</a>
+      <button class="nav__burger" aria-label="Menu" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</nav>
+
+<main id="main">
+
+<!-- PRODUCT HERO -->
+<header class="phero">
+  <div class="hero__glow"></div>
+  <div class="wrap phero__inner">
+    <div>
+      <p class="crumb"><a href="../index.html">AuraLink Studio</a> / <span data-i18n="name.zy">知音 · Zhiyin</span></p>
+      <img class="phero__badge phero__badge--app" src="../../assets/img/zhiyin-logo.webp" data-i18n-attr="alt:name.zy" alt="知音 · Zhiyin" width="112" height="112">
+      <span class="tag tag--new" style="margin-bottom:12px"><span class="dot"></span><span data-i18n="zy.tag">正式版 v1.0.0 · Windows · VST3</span></span>
+      <h1 data-i18n-html="zy.h1">照着耳朵的听感，<br><span class="grad">重新平衡音色。</span></h1>
+      <p class="lead" data-i18n="zy.lead">知音像人耳一样聆听音乐，并持续调整一条平滑的均衡曲线：压低那些过于突出的刺耳、轰鸣与共鸣，让存在却被盖住的细节浮现出来。没有需要手动摆放的频段 —— 你只需决定处理的力度和平衡的方向，在哪里处理由插件每时每刻自行判断。</p>
+      <div class="price"><span data-i18n="price.label">价格</span><b data-i18n="price.zy">免费</b></div>
+      <div class="hero__actions hero__actions--after-price">
+        <a href="https://github.com/auralink-studio/auralink-web/releases/download/zhyn-v1.0.0/Zhiyin_Setup_v1.0.0_Windows.zip" class="btn btn--primary" data-i18n="zy.cta1" data-dl="zy-win">下载 Windows 版 →</a>
+        <a href="#editions" class="btn btn--ghost" data-i18n="zy.cta2">查看三个版本</a>
+      </div>
+      <p class="note" data-i18n="zy.winnote">目前支持 Windows 10/11（64 位），可在任何支持 VST3 的 DAW 中使用。下载包内含录音室版、现场版和母带版三个版本。</p>
+    </div>
+    <div class="hero__show hero__show--trio">
+      <img class="hero__win hero__win--back hero__win--l" src="../../assets/img/shot-zhiyin-live.webp" alt="" width="1200" height="750">
+      <img class="hero__win hero__win--back hero__win--r" src="../../assets/img/shot-zhiyin-master.webp" alt="" width="1490" height="750">
+      <img class="hero__win hero__win--main" src="../../assets/img/shot-zhiyin-studio.webp" data-i18n-attr="alt:zy.shotalt" alt="知音录音室版界面：频谱、恢复 / 驯服均衡曲线与旋钮" width="1200" height="750" fetchpriority="high">
+    </div>
+  </div>
+</header>
+
+<!-- WHAT MAKES IT DIFFERENT -->
+<section class="section" id="features">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="eyebrow" data-i18n="zy.p.eyebrow">与众不同之处</span>
+      <h2 class="title" data-i18n="zy.p.title">不用摆频段，只管听。</h2>
+      <p class="lead" data-i18n="zy.p.lead">普通均衡器要你自己一个个找出问题频率 —— 而它们还会随着歌曲段落不断变化。知音替你时刻盯着这一切。</p>
+    </div>
+    <ul class="specs reveal" style="margin-top:34px">
+      <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg><div><b data-i18n="zy.s1t">驯服刺耳、轰鸣与共鸣</b><span data-i18n="zy.s1d">过于突出、主导听感的频率会在出现的那一刻被压低，消失后随即放开。</span></div></li>
+      <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg><div><b data-i18n="zy.s2t">恢复被掩盖的细节</b><span data-i18n="zy.s2d">存在却被相邻较响频率盖住的部分，会被提升到刚好能被人耳听清。</span></div></li>
+      <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg><div><b data-i18n="zy.s3t">两个旋钮决定方向</b><span data-i18n="zy.s3d">偏向决定更多恢复还是更多驯服；明亮把平衡向高频或低频倾斜。</span></div></li>
+      <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg><div><b data-i18n="zy.s4t">公平对比，不被音量骗耳朵</b><span data-i18n="zy.s4d">自动增益保持感知响度不变，旁通保持延迟不变 —— 开关之间听到的是音色差异，而不是音量差异。</span></div></li>
+      <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg><div><b data-i18n="zy.s5t">划定处理范围</b><span data-i18n="zy.s5d">低频界限与高频界限可以避开底鼓、贝斯或顶端的空气感，两端平滑过渡。</span></div></li>
+      <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg><div><b data-i18n="zy.s6t">不碰底噪</b><span data-i18n="zy.s6d">静音与底噪不会被“修正”；远低于周围、怎么提升也听不见的成分也不会被提升。</span></div></li>
+    </ul>
+  </div>
+</section>
+
+<!-- THREE EDITIONS -->
+<section class="section section--tight" id="editions" style="background:var(--bg-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+  <div class="wrap">
+    <div class="center reveal">
+      <span class="eyebrow" data-i18n="zy.e.eyebrow">三个版本</span>
+      <h2 class="title" data-i18n="zy.e.title">一双耳朵，三种工作。</h2>
+      <p class="lead" data-i18n="zy.e.lead">按手上的工作选择：混音、录音与现场，或母带。三个版本都在同一个下载包里。</p>
+    </div>
+    <div class="editions">
+      <div class="edition edition--studio reveal">
+        <div>
+          <h3 data-i18n="zy.e1t">录音室版 Studio</h3>
+          <p data-i18n="zy.e1d">用于混音、单轨与总线，低频分辨率高。主题色：竹林绿。</p>
+          <ul>
+            <li><span data-i18n="zy.e.l1">延迟（48 kHz）</span><b data-i18n="zy.e1.v1">42.7 ms</b></li>
+            <li><span data-i18n="zy.e.l2">处理精度</span><b data-i18n="zy.e1.v2">32 位</b></li>
+            <li><span data-i18n="zy.e.l3">最大修正</span><b data-i18n="zy.e1.v3">±12 dB</b></li>
+          </ul>
+        </div>
+      </div>
+      <div class="edition edition--live reveal">
+        <div>
+          <h3 data-i18n="zy.e2t">现场版 Live</h3>
+          <p data-i18n="zy.e2d">用于录音监听与现场演出，低延迟，适合实时使用。主题色：荷花粉。</p>
+          <ul>
+            <li><span data-i18n="zy.e.l1">延迟（48 kHz）</span><b data-i18n="zy.e2.v1">10.7 ms</b></li>
+            <li><span data-i18n="zy.e.l2">处理精度</span><b data-i18n="zy.e2.v2">32 位</b></li>
+            <li><span data-i18n="zy.e.l3">最大修正</span><b data-i18n="zy.e2.v3">±9 dB</b></li>
+          </ul>
+        </div>
+      </div>
+      <div class="edition edition--master reveal">
+        <div>
+          <h3 data-i18n="zy.e3t">母带版 Master</h3>
+          <p data-i18n="zy.e3d">用于母带与总线精修，增加响应、范围与立体声 / 中侧模式。主题色：枫叶橙。</p>
+          <ul>
+            <li><span data-i18n="zy.e.l1">延迟（48 kHz）</span><b data-i18n="zy.e3.v1">85.3 ms</b></li>
+            <li><span data-i18n="zy.e.l2">处理精度</span><b data-i18n="zy.e3.v2">64 位双模型</b></li>
+            <li><span data-i18n="zy.e.l3">最大修正</span><b data-i18n="zy.e3.v3">3–18 dB（范围）</b></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TIPS -->
+<section class="section">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="eyebrow" data-i18n="zy.f.eyebrow">使用建议</span>
+      <h2 class="title" data-i18n="zy.f.title">默认设置已很温和，多数素材 20–50 % 就够。</h2>
+    </div>
+    <div class="grid-3" style="margin-top:40px">
+      <div class="feature reveal">
+        <div class="feature__ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 21v-7M4 10V3M12 21v-11M12 6V3M20 21v-4M20 13V3"/><path d="M1 14h6M9 6h6M17 17h6"/></svg></div>
+        <h3 data-i18n="zy.f1t">混音总线 / 编组</h3>
+        <p data-i18n="zy.f1d">录音室版：恢复 30–40 %，驯服 30–50 %；低频界限设在 60–80 Hz 左右，保护底鼓和贝斯。</p>
+      </div>
+      <div class="feature reveal">
+        <div class="feature__ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v10.5"/><circle cx="9" cy="16" r="3"/><path d="M12 5l7-2v9.5"/><circle cx="16" cy="15" r="3"/></svg></div>
+        <h3 data-i18n="zy.f2t">人声</h3>
+        <p data-i18n="zy.f2d">驯服处理刺耳的共鸣和齿音区，恢复让被伴奏盖住的清晰度回来；高频界限设在 12–16 kHz 可保留空气感。</p>
+      </div>
+      <div class="feature reveal">
+        <div class="feature__ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 12c2-5 4-5 6 0s4 5 6 0 4-5 6 0"/></svg></div>
+        <h3 data-i18n="zy.f3t">母带</h3>
+        <p data-i18n="zy.f3d">母带版：范围 3–6 dB，响应 30–50 %，处理宜轻；两侧需要单独整理时使用中 / 侧。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CALLOUT -->
+<section class="section--tight">
+  <div class="wrap">
+    <div class="band reveal">
+      <div class="band__glow"></div>
+      <div class="band__inner">
+        <span class="eyebrow" data-i18n="zy.co.eyebrow">开始使用</span>
+        <h2 data-i18n="zy.co.title">复制到 VST3 目录，重新扫描即可。</h2>
+        <p class="lead" data-i18n-html="zy.co.body">解压下载包，把 <b>Zhiyin Studio.vst3</b>、<b>Zhiyin Live.vst3</b> 和 <b>Zhiyin Master.vst3</b> 复制到 <code>C:\Program Files\Common Files\VST3</code>，然后打开 DAW 重新扫描 —— 三个插件都在厂商 <b>AuraLink Studio</b> 之下。界面支持中文、English 与 Tiếng Việt。</p>
+        <div class="hero__actions" style="margin-top:24px">
+          <a href="https://github.com/auralink-studio/auralink-web/releases/download/zhyn-v1.0.0/Zhiyin_Setup_v1.0.0_Windows.zip" class="btn btn--primary" data-i18n="zy.cta1" data-dl="zy-win">下载 Windows 版 →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot__bottom" style="border:0;padding-top:0">
+      <a href="../index.html" class="brand">
+        <svg class="brand__mark" viewBox="0 0 32 32" fill="none"><path d="M4 16h4l3-9 5 18 4-13 3 6h5" stroke="url(#bg)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span>AuraLink<small>Studio</small></span>
+      </a>
+      <span>© <span id="year">2026</span> AuraLink Studio · auralink.io.vn</span>
+      <span><a href="../privacy.html" data-i18n="pv.h1">隐私政策</a> · <a href="../terms.html" data-i18n="tos.h1">使用条款</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="../../assets/js/main.js?v=b0655fe9dc"></script>
+</body>
+</html>

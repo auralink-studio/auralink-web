@@ -26,20 +26,20 @@
       "sha256": "c57538bc32b350c20b73fd25db578d38d51313db76d98c3fb54a4879a5c72cfe"
     },
     "cs-win": {
-      "tag": "cs-v1.3.0",
-      "file": "Chroma_Setup_v1.3.0_Windows.zip",
-      "version": "1.3.0",
+      "tag": "cs-v1.3.1",
+      "file": "Chroma_Setup_v1.3.1_Windows.zip",
+      "version": "1.3.1",
       "os": "Windows",
-      "bytes": 9857461,
-      "sha256": "32d37cd1f67f83b3f6d16d682dbdfd7d1112405d57e1228f795c2afb41734b8d"
+      "bytes": 10136117,
+      "sha256": "7f6a303260f18349be8f02d69b4973658c5bb7ec87eb742bed018a94ba6cb7ce"
     },
     "cs-mac": {
-      "tag": "cs-mac-v1.3.0",
-      "file": "Chroma-1.3.0_macOS.zip",
-      "version": "1.3.0",
+      "tag": "cs-mac-v1.3.1",
+      "file": "Chroma_Setup_v1.3.1_macOS.zip",
+      "version": "1.3.1",
       "os": "macOS",
-      "bytes": 11670167,
-      "sha256": "2389af25f3069064709425f5dc6401fcb23388b4881062859625229928f591d5"
+      "bytes": 11950237,
+      "sha256": "fbb4ebf6c37da47369f736aee1190269e7094e1338ffeb85aaaeef02d14b01e1"
     },
     "cadence-win": {
       "tag": "ccs-v1.0.0",
@@ -56,6 +56,14 @@
       "os": "macOS",
       "bytes": 7267303,
       "sha256": "30b7e0d20cd9271b08aac6be582ad3e9b5adcc2d72e3e31541035f542dd07361"
+    },
+    "zy-win": {
+      "tag": "zhyn-v1.0.0",
+      "file": "Zhiyin_Setup_v1.0.0_Windows.zip",
+      "version": "1.0.0",
+      "os": "Windows",
+      "bytes": 46488914,
+      "sha256": "86f38e45b67342b898e67823c0d169ee56b37bcf0454f23d93fe416419ceda1c"
     },
     "hc-win": {
       "tag": "hctt-v1.0.0",
@@ -141,6 +149,14 @@
         "cd-mac"
       ],
       "og": "cadence"
+    },
+    "products/zhiyin.html": {
+      "name": "Zhiyin",
+      "category": "MultimediaApplication",
+      "downloads": [
+        "zy-win"
+      ],
+      "og": "zhiyin"
     },
     "products/huyenco-tutru.html": {
       "name": "Huyền Cơ Tứ Trụ",

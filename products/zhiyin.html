@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="vi" data-lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Content Security Policy, as a meta tag because GitHub Pages cannot set
+     headers. The site has NO inline <script> and NO on* handlers, so
+     script-src can be a bare 'self' with no unsafe-inline escape hatch —
+     which is the one directive that actually stops an injected script from
+     running. style-src still needs unsafe-inline for the 56 style=""
+     attributes in the markup; injected CSS cannot execute, so that is a far
+     cheaper concession. connect-src is 'none': the site makes no fetch/XHR
+     at all (language comes from the browser and its time zone, locally).
+     Clickjacking and transport headers come from Cloudflare, not from here:
+     frame-ancestors is ignored in a meta tag and GitHub Pages cannot send
+     headers, so a Cloudflare Response Header Transform Rule adds
+     X-Frame-Options DENY, CSP frame-ancestors 'none' and Permissions-Policy,
+     and SSL/TLS settings add HSTS (6 months), nosniff, Always Use HTTPS and
+     TLS >= 1.2 (set up 2026-09-25). -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests">
+<!-- Send the full URL only to ourselves; cross-origin gets the origin, and
+     an http:// destination gets nothing at all. -->
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title data-i18n="zy.title">Tri Âm · Zhiyin — Bộ cân bằng nghe như tai người</title>
+<meta name="description" data-i18n-attr="content:zy.desc" content="Tri Âm (Zhiyin) là plugin EQ cảm thụ VST3 cho Windows: tự hạ những tần số chói, ù, cộng hưởng và nâng lại chi tiết bị che lấp, liên tục theo bản nhạc. Ba bản Studio, Live và Master.">
+<meta property="og:title" content="Tri Âm · Zhiyin — Bộ cân bằng nghe như tai người">
+<meta property="og:description" content="Tri Âm (Zhiyin) là plugin EQ cảm thụ VST3 cho Windows: tự hạ những tần số chói, ù, cộng hưởng và nâng lại chi tiết bị che lấp, liên tục theo bản nhạc. Ba bản Studio, Live và Master.">
+<meta property="og:type" content="website">
+<link rel="canonical" href="https://auralink.io.vn/products/zhiyin.html">
+<link rel="alternate" hreflang="vi" href="https://auralink.io.vn/products/zhiyin.html">
+<link rel="alternate" hreflang="en" href="https://auralink.io.vn/en/products/zhiyin.html">
+<link rel="alternate" hreflang="zh" href="https://auralink.io.vn/zh/products/zhiyin.html">
+<link rel="alternate" hreflang="x-default" href="https://auralink.io.vn/en/products/zhiyin.html">
+<meta property="og:locale" content="vi_VN">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta property="og:url" content="https://auralink.io.vn/products/zhiyin.html">
+<meta property="og:image" content="https://auralink.io.vn/assets/img/og/zhiyin.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:site_name" content="AuraLink Studio">
+<meta name="theme-color" content="#08080a">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/style.css?v=b95244a57b">
+<link rel="icon" href="../assets/img/zhiyin-logo.webp">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="manifest" href="../site.webmanifest">
+<script src="../assets/js/lang.js?v=f55cb46adc"></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Zhiyin","description":"Tri Âm (Zhiyin) là plugin EQ cảm thụ VST3 cho Windows: tự hạ những tần số chói, ù, cộng hưởng và nâng lại chi tiết bị che lấp, liên tục theo bản nhạc. Ba bản Studio, Live và Master.","url":"https://auralink.io.vn/products/zhiyin.html","image":"https://auralink.io.vn/assets/img/og/zhiyin.jpg","inLanguage":"vi","applicationCategory":"MultimediaApplication","operatingSystem":"Windows","softwareVersion":"1.0.0","downloadUrl":["https://github.com/auralink-studio/auralink-web/releases/download/zhyn-v1.0.0/Zhiyin_Setup_v1.0.0_Windows.zip"],"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"AuraLink Studio","url":"https://auralink.io.vn/","logo":"https://auralink.io.vn/icon-512.png","email":"contact@auralink.io.vn"}}</script>
+</head>
+<body class="theme-zhiyin">
+<a class="skip" href="#main" data-i18n="a11y.skip">Bỏ qua, tới nội dung chính</a>
+
+<nav class="nav">
+  <div class="wrap nav__inner">
+    <a href="../index.html" class="brand">
+      <svg class="brand__mark" viewBox="0 0 32 32" fill="none">
+        <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#35e0d0"/><stop offset="1" stop-color="#7b5cff"/></linearGradient></defs>
+        <path d="M4 16h4l3-9 5 18 4-13 3 6h5" stroke="url(#bg)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <span>AuraLink<small>Studio</small></span>
+    </a>
+    <div class="nav__links" id="nav-links">
+      <a href="../index.html#audio" data-i18n="nav.audio">Âm thanh</a>
+      <a href="../index.html#metaphysics" data-i18n="nav.meta">Huyền học</a>
+      <a href="../index.html#security" data-i18n="nav.sec">Bảo mật</a>
+      <a href="auralink.html">AuraLink Router</a>
+      <a href="../index.html#downloads" data-i18n="nav.downloads">Tải về</a>
+    </div>
+    <div class="nav__cta">
+      <div class="lang" role="group" aria-label="Language">
+        <a href="../products/zhiyin.html" hreflang="vi" lang="vi" data-lang="vi" class="active" aria-current="page">VI</a>
+        <a href="../en/products/zhiyin.html" hreflang="en" lang="en" data-lang="en">EN</a>
+        <a href="../zh/products/zhiyin.html" hreflang="zh" lang="zh-CN" data-lang="zh">中</a>
+      </div>
+      <a href="../index.html#downloads" class="btn btn--primary btn--sm" data-i18n="nav.downloads">Tải về</a>
+      <button class="nav__burger" aria-label="Menu" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</nav>
+
+<main id="main">
+
+<!-- PRODUCT HERO -->
+<header class="phero">
+  <div class="hero__glow"></div>
+  <div class="wrap phero__inner">
+    <div>
+      <p class="crumb"><a href="../index.html">AuraLink Studio</a> / <span data-i18n="name.zy">Tri Âm · Zhiyin</span></p>
+      <img class="phero__badge phero__badge--app" src="../assets/img/zhiyin-logo.webp" data-i18n-attr="alt:name.zy" alt="Tri Âm · Zhiyin" width="112" height="112">
+      <span class="tag tag--new" style="margin-bottom:12px"><span class="dot"></span><span data-i18n="zy.tag">Bản chính thức v1.0.0 · Windows · VST3</span></span>
+      <h1 data-i18n-html="zy.h1">Cân lại âm sắc <br>theo cách <span class="grad">tai&nbsp;nghe.</span></h1>
+      <p class="lead" data-i18n="zy.lead">Tri Âm nghe bản nhạc như tai người, rồi liên tục điều chỉnh một đường EQ mượt: hạ những chỗ chói, ù, cộng hưởng đang lấn át, nâng những chi tiết có mặt nhưng bị che lấp. Không có dải EQ nào phải đặt — bạn chỉ chọn mức độ và hướng cân bằng, còn chỗ nào cần xử lý thì plugin tự quyết ở từng khoảnh khắc.</p>
+      <div class="price"><span data-i18n="price.label">Giá bán</span><b data-i18n="price.zy">MIỄN PHÍ</b></div>
+      <div class="hero__actions hero__actions--after-price">
+        <a href="https://github.com/auralink-studio/auralink-web/releases/download/zhyn-v1.0.0/Zhiyin_Setup_v1.0.0_Windows.zip" class="btn btn--primary" data-i18n="zy.cta1" data-dl="zy-win">Tải cho Windows →</a>
+        <a href="#editions" class="btn btn--ghost" data-i18n="zy.cta2">Xem ba phiên bản</a>
+      </div>
+      <p class="note" data-i18n="zy.winnote">Hiện có cho Windows 10/11 (64 bit), chạy trong mọi DAW hỗ trợ VST3. Gói tải về có đủ ba bản Studio, Live và Master.</p>
+    </div>
+    <div class="hero__show hero__show--trio">
+      <img class="hero__win hero__win--back hero__win--l" src="../assets/img/shot-zhiyin-live.webp" alt="" width="1200" height="750">
+      <img class="hero__win hero__win--back hero__win--r" src="../assets/img/shot-zhiyin-master.webp" alt="" width="1490" height="750">
+      <img class="hero__win hero__win--main" src="../assets/img/shot-zhiyin-studio.webp" data-i18n-attr="alt:zy.shotalt" alt="Giao diện Tri Âm bản Studio: phổ tín hiệu, đường EQ Phục hồi / Chế ngự và các núm điều khiển" width="1200" height="750" fetchpriority="high">
+    </div>
+  </div>
+</header>
+
+<!-- WHAT MAKES IT DIFFERENT -->
+<section class="section" id="features">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="eyebrow" data-i18n="zy.p.eyebrow">Điểm khác biệt</span>
+      <h2 class="title" data-i18n="zy.p.title">Không phải đặt dải EQ. Chỉ cần nghe.</h2>
+      <p class="lead" data-i18n="zy.p.lead">EQ thường bắt bạn tự đi tìm từng tần số có vấn đề — mà chúng lại đổi theo từng đoạn nhạc. Tri Âm theo dõi chuyện đó thay bạn, ở mọi khoảnh khắc.</p>
+    </div>
+    <ul class="specs reveal" style="margin-top:34px">
+      <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg><div><b data-i18n="zy.s1t">Chế ngự chỗ chói, ù, cộng hưởng</b><span data-i18n="zy.s1d">Những tần số nổi trội, lấn át cảm nhận được hạ xuống đúng lúc chúng xuất hiện — rồi nhả ra khi hết.</span></div></li>
+      <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg><div><b data-i18n="zy.s2t">Phục hồi chi tiết bị che lấp</b><span data-i18n="zy.s2d">Những tần số có mặt nhưng bị âm to hơn bên cạnh át đi được nâng lên vừa đủ để tai nghe rõ trở lại.</span></div></li>
+      <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg><div><b data-i18n="zy.s3t">Hai núm chọn hướng cân bằng</b><span data-i18n="zy.s3d">Thiên lệch chọn nghiêng về phục hồi hay chế ngự; Làm sáng nghiêng cân bằng về phía âm cao hoặc âm trầm.</span></div></li>
+      <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg><div><b data-i18n="zy.s4t">So sánh công bằng, không bị lừa tai</b><span data-i18n="zy.s4d">Tự bù âm lượng giữ độ to cảm nhận không đổi, còn Bỏ qua giữ nguyên độ trễ — bật tắt là nghe ra khác biệt âm sắc chứ không phải âm lượng.</span></div></li>
+      <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg><div><b data-i18n="zy.s5t">Khoanh vùng xử lý</b><span data-i18n="zy.s5d">Giới hạn thấp và Giới hạn cao chừa lại kick, bass hay độ “thoáng” trên cao, với chuyển tiếp mượt ở hai đầu.</span></div></li>
+      <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg><div><b data-i18n="zy.s6t">Không đụng vào nhiễu nền</b><span data-i18n="zy.s6d">Khoảng lặng và nhiễu nền được để yên; những thành phần chìm tới mức nâng bao nhiêu cũng không nghe được thì cũng không bị nâng.</span></div></li>
+    </ul>
+  </div>
+</section>
+
+<!-- THREE EDITIONS -->
+<section class="section section--tight" id="editions" style="background:var(--bg-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+  <div class="wrap">
+    <div class="center reveal">
+      <span class="eyebrow" data-i18n="zy.e.eyebrow">Ba phiên bản</span>
+      <h2 class="title" data-i18n="zy.e.title">Một đôi tai, ba công việc.</h2>
+      <p class="lead" data-i18n="zy.e.lead">Chọn theo việc bạn đang làm: mix, thu âm và biểu diễn, hay master. Cả ba nằm trong cùng một gói tải.</p>
+    </div>
+    <div class="editions">
+      <div class="edition edition--studio reveal">
+        <div>
+          <h3 data-i18n="zy.e1t">Studio · Phòng thu</h3>
+          <p data-i18n="zy.e1d">Cho mix, từng track và bus. Độ phân giải vùng trầm cao. Sắc xanh Trúc Lâm.</p>
+          <ul>
+            <li><span data-i18n="zy.e.l1">Độ trễ (48 kHz)</span><b data-i18n="zy.e1.v1">42,7 ms</b></li>
+            <li><span data-i18n="zy.e.l2">Xử lý</span><b data-i18n="zy.e1.v2">32 bit</b></li>
+            <li><span data-i18n="zy.e.l3">Mức tối đa</span><b data-i18n="zy.e1.v3">±12 dB</b></li>
+          </ul>
+        </div>
+      </div>
+      <div class="edition edition--live reveal">
+        <div>
+          <h3 data-i18n="zy.e2t">Live · Trình diễn</h3>
+          <p data-i18n="zy.e2d">Cho thu âm có nghe trả và biểu diễn trực tiếp: độ trễ thấp để dùng thời gian thực. Sắc hồng Hà Hoa.</p>
+          <ul>
+            <li><span data-i18n="zy.e.l1">Độ trễ (48 kHz)</span><b data-i18n="zy.e2.v1">10,7 ms</b></li>
+            <li><span data-i18n="zy.e.l2">Xử lý</span><b data-i18n="zy.e2.v2">32 bit</b></li>
+            <li><span data-i18n="zy.e.l3">Mức tối đa</span><b data-i18n="zy.e2.v3">±9 dB</b></li>
+          </ul>
+        </div>
+      </div>
+      <div class="edition edition--master reveal">
+        <div>
+          <h3 data-i18n="zy.e3t">Master · Hoàn thiện</h3>
+          <p data-i18n="zy.e3d">Cho master và hoàn thiện bus: thêm Phản ứng, Biên độ và chế độ Âm nổi / Giữa–Bên. Sắc cam Phong Diệp.</p>
+          <ul>
+            <li><span data-i18n="zy.e.l1">Độ trễ (48 kHz)</span><b data-i18n="zy.e3.v1">85,3 ms</b></li>
+            <li><span data-i18n="zy.e.l2">Xử lý</span><b data-i18n="zy.e3.v2">64 bit, mô hình kép</b></li>
+            <li><span data-i18n="zy.e.l3">Mức tối đa</span><b data-i18n="zy.e3.v3">3–18 dB (Biên độ)</b></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TIPS -->
+<section class="section">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="eyebrow" data-i18n="zy.f.eyebrow">Gợi ý dùng</span>
+      <h2 class="title" data-i18n="zy.f.title">Mặc định đã nhẹ nhàng. Phần lớn chỉ cần 20–50 %.</h2>
+    </div>
+    <div class="grid-3" style="margin-top:40px">
+      <div class="feature reveal">
+        <div class="feature__ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 21v-7M4 10V3M12 21v-11M12 6V3M20 21v-4M20 13V3"/><path d="M1 14h6M9 6h6M17 17h6"/></svg></div>
+        <h3 data-i18n="zy.f1t">Bus mix và nhóm</h3>
+        <p data-i18n="zy.f1d">Bản Studio: Phục hồi 30–40 %, Chế ngự 30–50 %. Đặt Giới hạn thấp khoảng 60–80 Hz để giữ nguyên kick và bass.</p>
+      </div>
+      <div class="feature reveal">
+        <div class="feature__ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v10.5"/><circle cx="9" cy="16" r="3"/><path d="M12 5l7-2v9.5"/><circle cx="16" cy="15" r="3"/></svg></div>
+        <h3 data-i18n="zy.f2t">Giọng hát</h3>
+        <p data-i18n="zy.f2d">Chế ngự xử lý cộng hưởng chói và vùng âm xì; Phục hồi đưa độ rõ bị nhạc nền che lấp trở lại. Giới hạn cao 12–16 kHz giữ được độ thoáng.</p>
+      </div>
+      <div class="feature reveal">
+        <div class="feature__ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 12c2-5 4-5 6 0s4 5 6 0 4-5 6 0"/></svg></div>
+        <h3 data-i18n="zy.f3t">Master</h3>
+        <p data-i18n="zy.f3d">Bản Master: Biên độ 3–6 dB, Phản ứng 30–50 %, xử lý nhẹ tay. Dùng Giữa / Bên khi phần hai bên cần xử lý riêng.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CALLOUT -->
+<section class="section--tight">
+  <div class="wrap">
+    <div class="band reveal">
+      <div class="band__glow"></div>
+      <div class="band__inner">
+        <span class="eyebrow" data-i18n="zy.co.eyebrow">Bắt đầu</span>
+        <h2 data-i18n="zy.co.title">Chép vào thư mục VST3, quét lại là dùng.</h2>
+        <p class="lead" data-i18n-html="zy.co.body">Giải nén gói tải về, chép <b>Zhiyin Studio.vst3</b>, <b>Zhiyin Live.vst3</b> và <b>Zhiyin Master.vst3</b> vào <code>C:\Program Files\Common Files\VST3</code>, rồi mở DAW và quét lại plugin — cả ba nằm dưới tên hãng <b>AuraLink Studio</b>. Giao diện có tiếng Việt, tiếng Anh và tiếng Trung.</p>
+        <div class="hero__actions" style="margin-top:24px">
+          <a href="https://github.com/auralink-studio/auralink-web/releases/download/zhyn-v1.0.0/Zhiyin_Setup_v1.0.0_Windows.zip" class="btn btn--primary" data-i18n="zy.cta1" data-dl="zy-win">Tải cho Windows →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot__bottom" style="border:0;padding-top:0">
+      <a href="../index.html" class="brand">
+        <svg class="brand__mark" viewBox="0 0 32 32" fill="none"><path d="M4 16h4l3-9 5 18 4-13 3 6h5" stroke="url(#bg)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span>AuraLink<small>Studio</small></span>
+      </a>
+      <span>© <span id="year">2026</span> AuraLink Studio · auralink.io.vn</span>
+      <span><a href="../privacy.html" data-i18n="pv.h1">Chính sách bảo mật</a> · <a href="../terms.html" data-i18n="tos.h1">Điều khoản sử dụng</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="../assets/js/main.js?v=b0655fe9dc"></script>
+</body>
+</html>

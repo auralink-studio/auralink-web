@@ -26,7 +26,7 @@
   </url>
   <url>
     <loc>https://auralink.io.vn/privacy.html</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-11</lastmod>
     <xhtml:link rel="alternate" hreflang="vi" href="https://auralink.io.vn/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://auralink.io.vn/en/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://auralink.io.vn/zh/privacy.html"/>
@@ -34,7 +34,7 @@
   </url>
   <url>
     <loc>https://auralink.io.vn/en/privacy.html</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-11</lastmod>
     <xhtml:link rel="alternate" hreflang="vi" href="https://auralink.io.vn/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://auralink.io.vn/en/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://auralink.io.vn/zh/privacy.html"/>
@@ -42,7 +42,7 @@
   </url>
   <url>
     <loc>https://auralink.io.vn/zh/privacy.html</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-11</lastmod>
     <xhtml:link rel="alternate" hreflang="vi" href="https://auralink.io.vn/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://auralink.io.vn/en/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://auralink.io.vn/zh/privacy.html"/>
@@ -50,7 +50,7 @@
   </url>
   <url>
     <loc>https://auralink.io.vn/terms.html</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-11</lastmod>
     <xhtml:link rel="alternate" hreflang="vi" href="https://auralink.io.vn/terms.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://auralink.io.vn/en/terms.html"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://auralink.io.vn/zh/terms.html"/>
@@ -58,7 +58,7 @@
   </url>
   <url>
     <loc>https://auralink.io.vn/en/terms.html</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-11</lastmod>
     <xhtml:link rel="alternate" hreflang="vi" href="https://auralink.io.vn/terms.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://auralink.io.vn/en/terms.html"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://auralink.io.vn/zh/terms.html"/>
@@ -66,7 +66,7 @@
   </url>
   <url>
     <loc>https://auralink.io.vn/zh/terms.html</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-11</lastmod>
     <xhtml:link rel="alternate" hreflang="vi" href="https://auralink.io.vn/terms.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://auralink.io.vn/en/terms.html"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://auralink.io.vn/zh/terms.html"/>
@@ -263,5 +263,29 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://auralink.io.vn/en/products/xuanji-bazi.html"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://auralink.io.vn/zh/products/xuanji-bazi.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://auralink.io.vn/en/products/xuanji-bazi.html"/>
+  </url>
+  <url>
+    <loc>https://auralink.io.vn/products/zhiyin.html</loc>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://auralink.io.vn/products/zhiyin.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://auralink.io.vn/en/products/zhiyin.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://auralink.io.vn/zh/products/zhiyin.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://auralink.io.vn/en/products/zhiyin.html"/>
+  </url>
+  <url>
+    <loc>https://auralink.io.vn/en/products/zhiyin.html</loc>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://auralink.io.vn/products/zhiyin.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://auralink.io.vn/en/products/zhiyin.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://auralink.io.vn/zh/products/zhiyin.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://auralink.io.vn/en/products/zhiyin.html"/>
+  </url>
+  <url>
+    <loc>https://auralink.io.vn/zh/products/zhiyin.html</loc>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://auralink.io.vn/products/zhiyin.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://auralink.io.vn/en/products/zhiyin.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://auralink.io.vn/zh/products/zhiyin.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://auralink.io.vn/en/products/zhiyin.html"/>
   </url>
 </urlset>
