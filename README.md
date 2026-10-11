@@ -75,7 +75,7 @@ The build fills in, per page and language: text, `<html lang>`, canonical + `hre
 
 ### Shipping a new version of an app
 
-1. Upload the binary to a [GitHub Release](https://github.com/chenboguang7976/auralink-web/releases).
+1. Upload the binary to a [GitHub Release](https://github.com/auralink-studio/auralink-web/releases).
 2. In `tools/releases.json`, update that entry's `tag`, `file` and `version`.
 3. `python tools/sync_releases.py` — fetches the file size and SHA-256 from GitHub into `releases.json`.
 4. If the version label in a product's tag/badge changed (e.g. `"card.al.tag": "Mới · v0.9"`), update it in `strings.js`.

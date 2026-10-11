@@ -9,7 +9,7 @@ import io, json, os, sys, urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PATH = os.path.join(ROOT, "tools", "releases.json")
-REPO = "chenboguang7976/auralink-web"
+REPO = "auralink-studio/auralink-web"
 
 def fetch_assets():
     req = urllib.request.Request("https://api.github.com/repos/%s/releases?per_page=100" % REPO,
