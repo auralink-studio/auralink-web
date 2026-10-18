@@ -2,116 +2,116 @@
   "_comment": "One entry per download button (data-dl id). Edit tag/file/version here when you ship; then run `python tools/sync_releases.py` to pull size + SHA-256 from GitHub, and `python tools/build_i18n.py`.",
   "downloads": {
     "auralink-win": {
-      "tag": "v0.9.0",
-      "file": "AuraLink_Router_Setup_v0.9.0.zip",
+      "tag": "arr-v0.9.0",
+      "file": "AuraLink_Router_v0.9.0_Windows.zip",
       "version": "0.9.0",
       "os": "Windows",
-      "bytes": 38667253,
-      "sha256": "4e2273e9737a907950352513be764590169f5477066e5bb37a5a92ef60498ba1"
+      "bytes": 38769032,
+      "sha256": "9ef35e41208f3881468a1a015027a1d0967429a932bea2067a8b5572dc1a4d70"
     },
     "arc-win": {
-      "tag": "v2.1.0",
-      "file": "AIReaperCommander_Pro_Setup_v2.1.0.exe",
-      "version": "2.1.0",
+      "tag": "arc-v2.2.0",
+      "file": "AI-Reaper_Commander_v2.2.0_Windows.zip",
+      "version": "2.2.0",
       "os": "Windows",
-      "bytes": 40939498,
-      "sha256": "350867c4b7da8ecd0bd82e26f27ea36e51f75b2e01eb31e844924744f65e200d"
+      "bytes": 57786652,
+      "sha256": "a60fd2e7af9f8d7aefbc1a498429a4a853c7e52e7f54083c7bd967bd341ed470"
     },
     "arc-mac": {
-      "tag": "v2.1.0-macOS",
-      "file": "AI-Reaper-Commander-2.1.0.pkg",
-      "version": "2.1.0",
+      "tag": "arc-mac-v2.2.0",
+      "file": "AI-Reaper_Commander_v2.2.0_macOS.zip",
+      "version": "2.2.0",
       "os": "macOS",
-      "bytes": 21528944,
-      "sha256": "c57538bc32b350c20b73fd25db578d38d51313db76d98c3fb54a4879a5c72cfe"
+      "bytes": 77083745,
+      "sha256": "b8d17401d16d4b6c58f20226c103f613537a5d072c9033782a111621f4b08a5e"
     },
     "cs-win": {
       "tag": "cs-v1.3.1",
-      "file": "Chroma_Setup_v1.3.1_Windows.zip",
+      "file": "Chroma_v1.3.1_Windows.zip",
       "version": "1.3.1",
       "os": "Windows",
-      "bytes": 10136117,
-      "sha256": "7f6a303260f18349be8f02d69b4973658c5bb7ec87eb742bed018a94ba6cb7ce"
+      "bytes": 10136105,
+      "sha256": "26d06291477f803b294898134767910f3d2dc47da7f0ec5a9d7f3f9c4ddfde2a"
     },
     "cs-mac": {
       "tag": "cs-mac-v1.3.1",
-      "file": "Chroma_Setup_v1.3.1_macOS.zip",
+      "file": "Chroma_v1.3.1_macOS.zip",
       "version": "1.3.1",
       "os": "macOS",
-      "bytes": 11950237,
-      "sha256": "fbb4ebf6c37da47369f736aee1190269e7094e1338ffeb85aaaeef02d14b01e1"
+      "bytes": 11905641,
+      "sha256": "f32fcb1fd7fc10d895bbfcb50139f2c40ac1b63921ab1f5a7ebb04f1cfae0c09"
     },
     "cadence-win": {
-      "tag": "ccs-v1.0.0",
-      "file": "Cadence-v1.0.0.zip",
+      "tag": "cd-v1.0.0",
+      "file": "Cadence_v1.0.0_Windows.zip",
       "version": "1.0.0",
       "os": "Windows",
       "bytes": 14235962,
-      "sha256": "6dcbdeddeb2d8c5ff4511c38cdc56fe61ee5943eb0f3549a90ff9b04081dfff9"
+      "sha256": "90347729ee6e04bd86c69af8ede393b0ff754c31a9444f551fea5f99756e55cc"
     },
     "cd-mac": {
-      "tag": "ccs-v1.0.0-macOS",
-      "file": "Cadence-1.0.0-macOS.zip",
+      "tag": "cd-mac-v1.0.0",
+      "file": "Cadence_v1.0.0_macOS.zip",
       "version": "1.0.0",
       "os": "macOS",
-      "bytes": 7267303,
-      "sha256": "30b7e0d20cd9271b08aac6be582ad3e9b5adcc2d72e3e31541035f542dd07361"
+      "bytes": 7266140,
+      "sha256": "9eb1311465f7c337e083202c7469d80488db9df4595da1f512c05358b9dcde4b"
     },
     "zy-win": {
-      "tag": "zhyn-v1.0.0",
-      "file": "Zhiyin_Setup_v1.0.0_Windows.zip",
-      "version": "1.0.0",
+      "tag": "zy-v1.1.0",
+      "file": "Zhiyin_v1.1.0_Windows.zip",
+      "version": "1.1.0",
       "os": "Windows",
-      "bytes": 46488914,
-      "sha256": "86f38e45b67342b898e67823c0d169ee56b37bcf0454f23d93fe416419ceda1c"
+      "bytes": 45876347,
+      "sha256": "13aa202b8c084f8e12bb3b8e2ab6e43cdfa6ad6b73c595c43599e6b3069f55f6"
     },
     "hc-win": {
-      "tag": "hctt-v1.0.0",
-      "file": "HuyenCoTuTru_Setup_v1.0.0.exe",
+      "tag": "hc-v1.0.0",
+      "file": "HuyenCoTuTru_Setup_v1.0.0.zip",
       "version": "1.0.0",
       "os": "Windows",
-      "bytes": 42928859,
-      "sha256": "effeb76f95f0a6301a970c4669f6173568e2b8c420643fe440417b83513d8304"
+      "bytes": 42418022,
+      "sha256": "0b936e2a23815af97caacbf567dedcdcfd789ea9fc5d488f4cfc55338125b5c1"
     },
     "xj-win": {
-      "tag": "xjbz-v1.0.0",
-      "file": "XuanJiBaZi_Setup_v1.0.0.exe",
+      "tag": "xj-v1.0.0",
+      "file": "XuanJiBaZi_Setup_v1.0.0.zip",
       "version": "1.0.0",
       "os": "Windows",
-      "bytes": 38499872,
-      "sha256": "14391efd54a14fe79908e56e937622f71ddb4ac91b8dc178c500e3b45505f484"
+      "bytes": 37988687,
+      "sha256": "76d4360a1c45befea3e82b49f5767b706ca753a35d8a27da36f037372417b74b"
     },
     "bt-win": {
-      "tag": "bt-v1.0.1",
-      "file": "BadgerTally_Setup_v1.0.1_Windows.zip",
-      "version": "1.0.1",
+      "tag": "bt-v1.2.0",
+      "file": "BadgerTally_v1.2.0_Windows.zip",
+      "version": "1.2.0",
       "os": "Windows",
-      "bytes": 88360034,
-      "sha256": "53b63966f7847ba19c07c713efce1bfa4e65e8221152cff058280ee83098cf99"
+      "bytes": 87770140,
+      "sha256": "77f16d0ac34ebbc301795d863928a3035e9d18cb32e3293886652c749bf61eb1"
     },
     "bt-mac": {
-      "tag": "bt-mac-v1.0.1",
-      "file": "BadgerTally_1.0.1_macOS.zip",
-      "version": "1.0.1",
+      "tag": "bt-mac-v1.2.0",
+      "file": "BadgerTally_v1.2.0_macOS.zip",
+      "version": "1.2.0",
       "os": "macOS",
-      "bytes": 68135796,
-      "sha256": "a50839004b03cd9a1ddc9b085692823cfca48b38f465d977ff154af2b8099c1d"
+      "bytes": 109627848,
+      "sha256": "f5964ca02199f5112d820d85e1fab09564cfedcba902acf286dcbfb72bad7646"
     },
     "tt-win": {
-      "tag": "tt-v1.0.1",
-      "file": "TigerTally_Setup_v1.0.1_Windows.zip",
-      "version": "1.0.1",
+      "tag": "tt-v1.2.0",
+      "file": "TigerTally_v1.2.0_Windows.zip",
+      "version": "1.2.0",
       "os": "Windows",
-      "bytes": 87571894,
-      "sha256": "b697c473a294a847fc57c2d12717b65b4b3ddbc64ab2d75d33a0711cdece3d0b"
+      "bytes": 90414069,
+      "sha256": "c747384d40b1db5b22bbd1cc60fa924d6859521784e6ab511c8c0cc1d4976ecd"
     },
     "tt-mac": {
-      "tag": "tt-mac-v1.0.1",
-      "file": "TigerTally_1.0.1_macOS.zip",
-      "version": "1.0.1",
+      "tag": "tt-mac-v1.2.0",
+      "file": "TigerTally_v1.2.0_macOS.zip",
+      "version": "1.2.0",
       "os": "macOS",
-      "bytes": 67339041,
-      "sha256": "95dcc823f5a30050c1d7bfebd688bcf163dea0c1cc65eb0c8a8223139128b781"
+      "bytes": 108822644,
+      "sha256": "0b23fcafdb4e8100cc48f5624c37cdf2fb6c2ce74abd4883eabde820ccfe39e2"
     }
   },
   "products": {
