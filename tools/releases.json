@@ -11,19 +11,19 @@
     },
     "arc-win": {
       "tag": "arc-v2.2.0",
-      "file": "AI-Reaper_Commander_v2.2.0_Windows.zip",
+      "file": "AI_Reaper_Commander_Pro_v2.2.0_Windows.zip",
       "version": "2.2.0",
       "os": "Windows",
-      "bytes": 57786652,
-      "sha256": "a60fd2e7af9f8d7aefbc1a498429a4a853c7e52e7f54083c7bd967bd341ed470"
+      "bytes": 63667566,
+      "sha256": "83139adce41b59197b79b8dbedd08f6dec2f6d9290c883c17a306f75705bc7fb"
     },
     "arc-mac": {
       "tag": "arc-mac-v2.2.0",
-      "file": "AI-Reaper_Commander_v2.2.0_macOS.zip",
+      "file": "AI-Reaper_Commander_v2.2.0-macOS.zip",
       "version": "2.2.0",
       "os": "macOS",
-      "bytes": 77083745,
-      "sha256": "b8d17401d16d4b6c58f20226c103f613537a5d072c9033782a111621f4b08a5e"
+      "bytes": 77366964,
+      "sha256": "0440833b26f2105cae1f9d57a1678a63941fc3a214a56048517d455b21437574"
     },
     "cs-win": {
       "tag": "cs-v1.3.1",
@@ -130,7 +130,7 @@
         "arc-win",
         "arc-mac"
       ],
-      "og": "ai-reaper"
+      "og": "ai-reaper-{lang}"
     },
     "products/chroma-studio.html": {
       "name": "Chroma Studio",
