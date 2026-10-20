@@ -20,7 +20,6 @@ BG = (8, 8, 10)
 # name: (screenshot, logo, accent, accent-2)  - accents match the .theme-* classes in style.css
 CARDS = {
     "auralink":       ("shot-auralink.webp",       "auralink-logo.webp",      "#ff8a66", "#e0443c"),
-    "ai-reaper":      ("shot-ai-reaper.webp",      "ai-reaper-logo.webp",     "#6cb6ff", "#4a78ff"),
     "chroma":         ("shot-chroma-tune.webp",    "chroma-studio-logo.webp", "#f4b556", "#cf6f2e"),
     "cadence":        ("shot-cadence.webp",        "cadence-studio-logo.webp","#72e3a6", "#2fae70"),
     "zhiyin":         ("shot-zhiyin-studio.webp",  "zhiyin-logo.webp",        "#f08a74", "#b5302a"),
@@ -28,6 +27,7 @@ CARDS = {
     "xuanji":         ("shot-xuanji.webp",         "xuanji-bazi-logo.webp",   "#f0d27a", "#c9963a"),
 }
 for lang in ("vi", "en", "zh"):
+    CARDS["ai-reaper-" + lang] = ("shot-ai-reaper-%s.webp" % lang, "ai-reaper-logo.webp", "#6cb6ff", "#4a78ff")
     CARDS["badgertally-" + lang] = ("shot-badgertally-%s.webp" % lang, "badgertally-logo.webp", "#f0a93c", "#e2334a")
     CARDS["tigertally-" + lang] = ("shot-tigertally-%s.webp" % lang, "tigertally-logo.webp", "#5fe3f2", "#1fa9c9")
 
