@@ -21,7 +21,7 @@ BG = (8, 8, 10)
 CARDS = {
     "auralink":       ("shot-auralink.webp",       "auralink-logo.webp",      "#ff8a66", "#e0443c"),
     "chroma":         ("shot-chroma-tune.webp",    "chroma-studio-logo.webp", "#f4b556", "#cf6f2e"),
-    "cadence":        ("shot-cadence.webp",        "cadence-studio-logo.webp","#72e3a6", "#2fae70"),
+    "cadence":        ("shot-cadence-graphite.webp","cadence-studio-logo.webp","#72e3a6", "#2fae70"),
     "zhiyin":         ("shot-zhiyin-studio.webp",  "zhiyin-logo.webp",        "#f08a74", "#b5302a"),
     "huyenco":        ("shot-huyenco.webp",        "huyenco-tutru-logo.webp", "#f0d27a", "#c9963a"),
     "xuanji":         ("shot-xuanji.webp",         "xuanji-bazi-logo.webp",   "#f0d27a", "#c9963a"),

@@ -42,20 +42,20 @@
       "sha256": "f32fcb1fd7fc10d895bbfcb50139f2c40ac1b63921ab1f5a7ebb04f1cfae0c09"
     },
     "cadence-win": {
-      "tag": "cd-v1.0.0",
-      "file": "Cadence_v1.0.0_Windows.zip",
-      "version": "1.0.0",
+      "tag": "cd-v1.1.0",
+      "file": "Cadence_v1.1.0_Windows.zip",
+      "version": "1.1.0",
       "os": "Windows",
-      "bytes": 14235962,
-      "sha256": "90347729ee6e04bd86c69af8ede393b0ff754c31a9444f551fea5f99756e55cc"
+      "bytes": 15143940,
+      "sha256": "29581da374459292bdeb11f469540e58b39a6bcbb2da4f55124fe7e5cdc45f88"
     },
     "cd-mac": {
-      "tag": "cd-mac-v1.0.0",
-      "file": "Cadence_v1.0.0_macOS.zip",
-      "version": "1.0.0",
+      "tag": "cd-mac-v1.1.0",
+      "file": "Cadence_v1.1.0_macOS.zip",
+      "version": "1.1.0",
       "os": "macOS",
-      "bytes": 7266140,
-      "sha256": "9eb1311465f7c337e083202c7469d80488db9df4595da1f512c05358b9dcde4b"
+      "bytes": 5711608,
+      "sha256": "23e6c44ff37bc88ce9f24e136803c9bdcbfb1d01ad596223341df4107e979b6f"
     },
     "zy-win": {
       "tag": "zy-v1.1.0",
@@ -66,20 +66,20 @@
       "sha256": "13aa202b8c084f8e12bb3b8e2ab6e43cdfa6ad6b73c595c43599e6b3069f55f6"
     },
     "hc-win": {
-      "tag": "hc-v1.0.0",
-      "file": "HuyenCoTuTru_Setup_v1.0.0.zip",
-      "version": "1.0.0",
+      "tag": "hc-v1.1.0",
+      "file": "HuyenCoTuTru_Setup_v1.1.0.zip",
+      "version": "1.1.0",
       "os": "Windows",
-      "bytes": 42418022,
-      "sha256": "0b936e2a23815af97caacbf567dedcdcfd789ea9fc5d488f4cfc55338125b5c1"
+      "bytes": 41833321,
+      "sha256": "c3f8c195baff951c20f80a43b993c357d03218c2784a67f7552a1ff41c7c36f9"
     },
     "xj-win": {
-      "tag": "xj-v1.0.0",
-      "file": "XuanJiBaZi_Setup_v1.0.0.zip",
-      "version": "1.0.0",
+      "tag": "xj-v1.1.0",
+      "file": "XuanJiBaZi_Setup_v1.1.0.zip",
+      "version": "1.1.0",
       "os": "Windows",
-      "bytes": 37988687,
-      "sha256": "76d4360a1c45befea3e82b49f5767b706ca753a35d8a27da36f037372417b74b"
+      "bytes": 39136368,
+      "sha256": "2563be1e07c21fe1ad16bb4cf55890102c1ff6fc352793c41ae51308959e0526"
     },
     "bt-win": {
       "tag": "bt-v1.2.0",

@@ -627,6 +627,10 @@ a[data-dl$="-mac"]{--os-icon:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3
 .theme-shot img{width:100%;height:auto;border-radius:10px}
 .theme-shot figcaption{text-align:center;font-family:var(--display);font-size:.85rem;color:var(--muted);padding:10px 0 4px}
 @media(max-width:760px){.themes{grid-template-columns:repeat(2,minmax(0,1fr))}}
+/* two shots side by side (Cadence looks, BaZi 1.1 views); one column on phones */
+.themes--2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.themes--2 .theme-shot:first-child{grid-column:auto;max-width:none;padding:8px;box-shadow:none}
+@media(max-width:760px){.themes--2{grid-template-columns:1fr}}
 
 /* small advisory line under a download block (e.g. Apple Silicon + Rosetta) */
 .note{
