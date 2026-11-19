@@ -6,112 +6,112 @@
       "file": "AuraLink_Router_v0.9.0_Windows.zip",
       "version": "0.9.0",
       "os": "Windows",
-      "bytes": 38769032,
-      "sha256": "9ef35e41208f3881468a1a015027a1d0967429a932bea2067a8b5572dc1a4d70"
+      "bytes": 38705676,
+      "sha256": "3df48d37ba413cb663256eb630d994cc648a0a266c2ea007440bd9ae93413d49"
     },
     "arc-win": {
       "tag": "arc-v2.2.0",
       "file": "AI_Reaper_Commander_Pro_v2.2.0_Windows.zip",
       "version": "2.2.0",
       "os": "Windows",
-      "bytes": 63667566,
-      "sha256": "83139adce41b59197b79b8dbedd08f6dec2f6d9290c883c17a306f75705bc7fb"
+      "bytes": 59279464,
+      "sha256": "b2ffa73d13b038316794e0aaf5292466932ae1eb159bd355ad549864a8843277"
     },
     "arc-mac": {
       "tag": "arc-mac-v2.2.0",
       "file": "AI-Reaper_Commander_v2.2.0-macOS.zip",
       "version": "2.2.0",
       "os": "macOS",
-      "bytes": 77366964,
-      "sha256": "0440833b26f2105cae1f9d57a1678a63941fc3a214a56048517d455b21437574"
+      "bytes": 77376063,
+      "sha256": "d713bce88cb9c5aec7b30eaea19506178bb77137c0ec20869b6437f7dd3d9ee2"
     },
     "cs-win": {
       "tag": "cs-v1.3.1",
       "file": "Chroma_v1.3.1_Windows.zip",
       "version": "1.3.1",
       "os": "Windows",
-      "bytes": 10136105,
-      "sha256": "26d06291477f803b294898134767910f3d2dc47da7f0ec5a9d7f3f9c4ddfde2a"
+      "bytes": 10121289,
+      "sha256": "6077a21090a07deeb757c7a762f5211a741e3948dd06dafa962ba64d1558109c"
     },
     "cs-mac": {
       "tag": "cs-mac-v1.3.1",
       "file": "Chroma_v1.3.1_macOS.zip",
       "version": "1.3.1",
       "os": "macOS",
-      "bytes": 11905641,
-      "sha256": "f32fcb1fd7fc10d895bbfcb50139f2c40ac1b63921ab1f5a7ebb04f1cfae0c09"
+      "bytes": 6471715,
+      "sha256": "6d1eeb92f125855db047ef3364c732c7d48f40f39fe5d8cbf72100ba0db18ba6"
     },
     "cadence-win": {
       "tag": "cd-v1.1.0",
       "file": "Cadence_v1.1.0_Windows.zip",
       "version": "1.1.0",
       "os": "Windows",
-      "bytes": 15143940,
-      "sha256": "29581da374459292bdeb11f469540e58b39a6bcbb2da4f55124fe7e5cdc45f88"
+      "bytes": 15239660,
+      "sha256": "f4008623c9a12d6cf25066d7fbd577de76a031d53d12b2434757eb13d8db8df7"
     },
     "cd-mac": {
       "tag": "cd-mac-v1.1.0",
       "file": "Cadence_v1.1.0_macOS.zip",
       "version": "1.1.0",
       "os": "macOS",
-      "bytes": 5711608,
-      "sha256": "23e6c44ff37bc88ce9f24e136803c9bdcbfb1d01ad596223341df4107e979b6f"
+      "bytes": 5833343,
+      "sha256": "861216e209d6dbeeb4eabdb0f19bd4526cdd31457db6f0807a9b4fb977702b28"
     },
     "zy-win": {
       "tag": "zy-v1.1.0",
       "file": "Zhiyin_v1.1.0_Windows.zip",
       "version": "1.1.0",
       "os": "Windows",
-      "bytes": 45876347,
-      "sha256": "13aa202b8c084f8e12bb3b8e2ab6e43cdfa6ad6b73c595c43599e6b3069f55f6"
+      "bytes": 47411904,
+      "sha256": "003aed22146323990b3303c354e6020c1209e088a39e311a6715a9a02efc2c4c"
     },
     "hc-win": {
       "tag": "hc-v1.1.0",
       "file": "HuyenCoTuTru_Setup_v1.1.0.zip",
       "version": "1.1.0",
       "os": "Windows",
-      "bytes": 41833321,
-      "sha256": "c3f8c195baff951c20f80a43b993c357d03218c2784a67f7552a1ff41c7c36f9"
+      "bytes": 39565660,
+      "sha256": "7814e0203cf38efc69a53b94a8537a4a7466370aa4240b9bf193cdcb39249681"
     },
     "xj-win": {
       "tag": "xj-v1.1.0",
       "file": "XuanJiBaZi_Setup_v1.1.0.zip",
       "version": "1.1.0",
       "os": "Windows",
-      "bytes": 39136368,
-      "sha256": "2563be1e07c21fe1ad16bb4cf55890102c1ff6fc352793c41ae51308959e0526"
+      "bytes": 39695961,
+      "sha256": "073e94b36abffefa3cfb06c8f0444d214bd10eccbffa17a3dea3b3e811bcbff2"
     },
     "bt-win": {
       "tag": "bt-v1.2.0",
       "file": "BadgerTally_v1.2.0_Windows.zip",
       "version": "1.2.0",
       "os": "Windows",
-      "bytes": 87770140,
-      "sha256": "77f16d0ac34ebbc301795d863928a3035e9d18cb32e3293886652c749bf61eb1"
+      "bytes": 92058152,
+      "sha256": "6c3a6d781b90060c374fd8ae849335e3bfcc21441f91ae4892735cf558985a4f"
     },
     "bt-mac": {
       "tag": "bt-mac-v1.2.0",
       "file": "BadgerTally_v1.2.0_macOS.zip",
       "version": "1.2.0",
       "os": "macOS",
-      "bytes": 109627848,
-      "sha256": "f5964ca02199f5112d820d85e1fab09564cfedcba902acf286dcbfb72bad7646"
+      "bytes": 109571435,
+      "sha256": "406b571f6f95cb8f325078053515eeb4a5948d201464d8e8ecbb9354f1abeb76"
     },
     "tt-win": {
       "tag": "tt-v1.2.0",
       "file": "TigerTally_v1.2.0_Windows.zip",
       "version": "1.2.0",
       "os": "Windows",
-      "bytes": 90414069,
-      "sha256": "c747384d40b1db5b22bbd1cc60fa924d6859521784e6ab511c8c0cc1d4976ecd"
+      "bytes": 88532281,
+      "sha256": "504ea501a88256d2e04bca9faaca6846ad7606d301691d075108e3de92f4c7a6"
     },
     "tt-mac": {
       "tag": "tt-mac-v1.2.0",
       "file": "TigerTally_v1.2.0_macOS.zip",
       "version": "1.2.0",
       "os": "macOS",
-      "bytes": 108822644,
-      "sha256": "0b23fcafdb4e8100cc48f5624c37cdf2fb6c2ce74abd4883eabde820ccfe39e2"
+      "bytes": 108818068,
+      "sha256": "8e8a8d45720459fe8f2ae414dbb04400e0361cc172e84816f93d80e9bde52a59"
     }
   },
   "products": {
