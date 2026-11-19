@@ -491,7 +491,8 @@ body::after{
   .pcard__foot:has(.price--card) .btn{justify-content:center;padding:10px 6px;font-size:.8rem}
   .pcard__foot .price--card{margin:0;justify-content:center;padding:0 6px;border-radius:100px;min-width:0}
   .pcard__foot .price--card span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
-  .pcard__foot .price--card b{font-size:.9rem;white-space:nowrap}
+  .pcard__foot .price--card b{font-size:.9rem;white-space:normal;text-align:center;line-height:1.15;text-wrap:balance}
+  /* a long price (Yuefu: "CHƯA ĐỊNH GIÁ") wraps onto two centred lines; "MIỄN PHÍ" stays on one */
 }
 /* the version pill never breaks; a long product name wraps instead */
 .pcard__head .tag{white-space:nowrap;flex-shrink:0}
