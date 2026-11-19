@@ -568,7 +568,7 @@ module.exports = {
       "yf.pc.cap": "Ba phím đổi kỹ thuật thay cặp trống và phách: bản cổ, thư cổ, phách tre.",
       "yf.co.eyebrow": "Ủng hộ phát triển",
       "yf.co.title": "Chưa định giá, vẫn đang làm tiếp.",
-      "yf.co.body": "Nhạc Phủ đang được phát triển tiếp, nhất là các nhạc cụ Việt Nam: thu mẫu từ nghệ nhân và hạ tầng đều cần kinh phí. Hiện Nhạc Phủ dành cho anh em producer và người quen; mỗi đơn có <b>hai suất kích hoạt</b> cho hai máy tính. Muốn dùng và ủng hộ, hãy viết cho chúng tôi.",
+      "yf.co.body": "Nhạc Phủ đang được phát triển tiếp, nhất là các nhạc cụ Việt Nam: thu mẫu từ nghệ nhân và hạ tầng đều cần kinh phí. Hiện Nhạc Phủ dành cho anh em producer và người quen; mỗi đơn có <b>hai suất kích hoạt</b> cho hai máy tính. Muốn dùng và ủng hộ, hãy liên hệ chúng tôi.",
       "yf.co.btn": "Viết email →",
       "yf.co.btn2": "Tài liệu và điều khoản",
       // Yuefu: documents page
