@@ -65,6 +65,14 @@
       "bytes": 47411904,
       "sha256": "003aed22146323990b3303c354e6020c1209e088a39e311a6715a9a02efc2c4c"
     },
+    "yf-win": {
+      "tag": "yf-v1.0.0",
+      "file": "Yuefu_v1.0.0_Windows.zip",
+      "version": "1.0.0",
+      "os": "Windows",
+      "bytes": 11070538,
+      "sha256": "54781ffe85e1d0c0574b242d73221fbebca53d7889ead0ae321cccc6be9d2504"
+    },
     "hc-win": {
       "tag": "hc-v1.1.0",
       "file": "HuyenCoTuTru_Setup_v1.1.0.zip",
