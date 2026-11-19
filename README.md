@@ -96,6 +96,7 @@ Download ids (`data-dl`) and their files:
 | `cs-win` / `cs-mac` | Chroma Studio | Windows x64 / macOS (unsigned VST3: Apple Silicon needs the DAW under Rosetta) |
 | `cadence-win` / `cd-mac` | Cadence | Windows x64 / macOS Intel |
 | `zy-win` | Zhiyin (Studio + Live + Master VST3) | Windows x64 |
+| `yf-win` | Yuefu 乐府 · Nhạc Phủ | Windows x64 |
 | `hc-win` | Huyền Cơ Tứ Trụ | Windows x64 |
 | `xj-win` | 玄机八字 XuanJi BaZi | Windows x64 |
 | `bt-win` / `bt-mac` | Lửng Phù · BadgerTally | Windows x64 / macOS 13+ Intel |
