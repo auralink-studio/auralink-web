@@ -15,6 +15,7 @@ Static marketing site for **AuraLink Studio**, a suite of desktop audio, metaphy
 | **Chroma Studio** — Chroma Sense (live key detection) + Chroma Tune (pitch correction locked to the key), VST3 | Windows, macOS | `products/chroma-studio.html` | vi · en · zh |
 | **Cadence** — real-time MIDI chord & scale studio | Windows, macOS | `products/cadence.html` | vi · en · zh |
 | **Zhiyin 知音 · Tri Âm** — perceptual EQ (Recover / Tame), Studio · Live · Master editions, VST3 | Windows | `products/zhiyin.html` | vi · en · zh |
+| **Yuefu 乐府 · Nhạc Phủ** — a sample instrument for 60 traditional instruments of China and Vietnam, VST3. Not yet priced, documents at `products/yuefu-docs.html` | Windows | `products/yuefu.html` | vi · en · zh |
 | **Huyền Cơ Tứ Trụ** — BaZi charting, Vietnamese UI | Windows | `products/huyenco-tutru.html` | vi · en |
 | **玄机八字 XuanJi BaZi** — BaZi charting, Chinese UI | Windows | `products/xuanji-bazi.html` | en · zh |
 | **Lửng Phù · BadgerTally** — protected video: one unlock ticket per viewing machine, tracing watermark | Windows, macOS | `products/badgertally.html` | vi · en · zh |

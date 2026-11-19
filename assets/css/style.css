@@ -466,6 +466,7 @@ body::after{
 .theme-badger  {--accent:#f0a93c;--accent-2:#e2334a;--glow-1:rgba(226,51,74,.20);--glow-2:rgba(240,169,60,.13);--btn-glow:rgba(240,169,60,.22);--btn-glow-h:rgba(226,51,74,.34)}
 .theme-tiger   {--accent:#5fe3f2;--accent-2:#1fa9c9;--glow-1:rgba(31,169,201,.22);--glow-2:rgba(95,227,242,.13);--btn-glow:rgba(95,227,242,.22);--btn-glow-h:rgba(31,169,201,.36)}
 .theme-zhiyin  {--accent:#f08a74;--accent-2:#b5302a;--glow-1:rgba(181,48,42,.22);--glow-2:rgba(240,138,116,.13);--btn-glow:rgba(240,138,116,.22);--btn-glow-h:rgba(181,48,42,.36)}
+.theme-yuefu   {--accent:#e9c46a;--accent-2:#b52e3e;--glow-1:rgba(181,46,62,.22);--glow-2:rgba(233,196,106,.13);--btn-glow:rgba(233,196,106,.22);--btn-glow-h:rgba(181,46,62,.36)}
 [class*="theme-"]{
   --grad:linear-gradient(120deg,var(--accent) 0%,var(--accent-2) 100%);
   --grad-soft:linear-gradient(120deg,color-mix(in srgb,var(--accent) 14%,transparent),color-mix(in srgb,var(--accent-2) 14%,transparent));
@@ -631,6 +632,9 @@ a[data-dl$="-mac"]{--os-icon:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3
 .themes--2{grid-template-columns:repeat(2,minmax(0,1fr))}
 .themes--2 .theme-shot:first-child{grid-column:auto;max-width:none;padding:8px;box-shadow:none}
 @media(max-width:760px){.themes--2{grid-template-columns:1fr}}
+.themes--3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.themes--3 .theme-shot:first-child{grid-column:auto;max-width:none;padding:8px;box-shadow:none}
+@media(max-width:760px){.themes--3{grid-template-columns:1fr}}
 
 /* small advisory line under a download block (e.g. Apple Silicon + Rosetta) */
 .note{
