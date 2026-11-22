@@ -10,20 +10,20 @@
       "sha256": "3df48d37ba413cb663256eb630d994cc648a0a266c2ea007440bd9ae93413d49"
     },
     "arc-win": {
-      "tag": "arc-v2.2.0",
-      "file": "AI_Reaper_Commander_Pro_v2.2.0_Windows.zip",
-      "version": "2.2.0",
+      "tag": "arc-v2.2.2",
+      "file": "AI_Reaper_Commander_Pro_v2.2.2_Windows.zip",
+      "version": "2.2.2",
       "os": "Windows",
-      "bytes": 59279464,
-      "sha256": "b2ffa73d13b038316794e0aaf5292466932ae1eb159bd355ad549864a8843277"
+      "bytes": 62339383,
+      "sha256": "cb63e47fd2d2c7324ea36ff5d4be804e1cd63aa803a63d6e58e2e264df60da03"
     },
     "arc-mac": {
-      "tag": "arc-mac-v2.2.0",
-      "file": "AI-Reaper_Commander_v2.2.0-macOS.zip",
-      "version": "2.2.0",
+      "tag": "arc-mac-v2.2.2",
+      "file": "AI-Reaper_Commander_v2.2.2-macOS.zip",
+      "version": "2.2.2",
       "os": "macOS",
-      "bytes": 77376063,
-      "sha256": "d713bce88cb9c5aec7b30eaea19506178bb77137c0ec20869b6437f7dd3d9ee2"
+      "bytes": 78037104,
+      "sha256": "f77e1cdd628ddc006a9fc8c5a5c2b08bf34e2f50ac2e206331f8c16ca4b0f89c"
     },
     "cs-win": {
       "tag": "cs-v1.3.1",
